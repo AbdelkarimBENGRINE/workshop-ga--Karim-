@@ -27,4 +27,3 @@ jobs:
       run: "make tests_run"
     - id: Coverage
       run: "make coverage"
-﻿
