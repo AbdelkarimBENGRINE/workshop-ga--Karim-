@@ -39,7 +39,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - id: functional_tests
-      run: bash functional-test.sh > functionnal_tests
+      run: make re ; bash functional-test.sh > functionnal_tests
     - uses: actions/upload-artifact@v2
       with:
         name: functionnal_tests
