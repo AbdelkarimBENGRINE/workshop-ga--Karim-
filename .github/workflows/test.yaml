@@ -1,4 +1,4 @@
-name : Tests
+name: Tests
 
 on:
   push:
@@ -17,6 +17,7 @@ jobs:
     steps:
     - id: Say_hello_world
       run: "echo Welcome to the Github Actions workshop !"
+
   unit-test:
     runs-on: ubuntu-20.04
     name: unit-test
