@@ -24,6 +24,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     -id: Unit-tests
-      run: "make tests_run"
+     run: "make tests_run"
     -id: Coverage
-      run: "make coverage"
+     run: "make coverage"
