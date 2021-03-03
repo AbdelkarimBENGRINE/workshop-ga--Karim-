@@ -8,9 +8,7 @@ on:
   pull_request:
     branches:
       - dev
-      branches:
-        - dev
-        - main
+      - main
   page_build:
   release:
     types:
